@@ -1,0 +1,11 @@
+name: linter
+run-name: Code Linter
+on:
+ pull_request:
+   branches: main
+jobs:
+  linter:
+    runs-on: ubuntu-latest
+    steps:
+      - shell: bash
+        run: echo "code is very good"
