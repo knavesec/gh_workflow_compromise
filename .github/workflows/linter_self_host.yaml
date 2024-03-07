@@ -1,6 +1,8 @@
 name: linter
 run-name: Code Linter
-on: [push]
+on:
+ pull_request:
+   branches: main
 jobs:
   linter:
     runs-on: self-hosted
