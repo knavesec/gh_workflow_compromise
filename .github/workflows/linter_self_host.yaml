@@ -1,0 +1,10 @@
+name: linter
+run-name: Code Linter
+on: [push]
+jobs:
+  linter:
+    runs-on: self-hosted
+    steps:
+      - shell: bash
+        run: echo "code is very good"
+
