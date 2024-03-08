@@ -1,10 +1,11 @@
 name: linter
 run-name: Code Linter
-on: [push]
+on:
+ pull_request:
+   branches: main
 jobs:
   linter:
     runs-on: self-hosted
     steps:
       - shell: bash
-        run: echo "code is very good"
-
+        run: echo "this is running on a self hosted runner"
