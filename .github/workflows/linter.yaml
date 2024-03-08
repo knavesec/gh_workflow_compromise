@@ -5,7 +5,7 @@ on:
    branches: main
 jobs:
   linter:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - shell: bash
         run: echo "code is very good"
